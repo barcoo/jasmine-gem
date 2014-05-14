@@ -63,6 +63,7 @@ Gem::Specification.new do |s|
     s.add_development_dependency 'rack', '>= 1.2.1'
   end
 
+  s.add_development_dependency 'rake-tasks'
   s.add_development_dependency 'rack-test'
   s.add_development_dependency 'json_pure'
   s.add_development_dependency 'nokogiri'

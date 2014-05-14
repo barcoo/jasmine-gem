@@ -23,6 +23,6 @@ jasmine_files.each do |file|
   require File.join('jasmine', file)
 end
 
-require File.join('jasmine', "railtie") if Jasmine::Dependencies.use_railties?
+require File.join('jasmine', "railtie") if defined?(Rails)
 
 
